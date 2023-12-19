@@ -1,5 +1,5 @@
-API Documentation
-This document provides an overview of the endpoints available in this API along with their functionalities and usage.
+##API Documentation
+####This document provides an overview of the endpoints available in this API along with their functionalities and usage.
 
 Base URL
 The base URL for accessing the API is http://localhost:3000/.
@@ -18,7 +18,9 @@ PaidMonth (example: "any")
 Responses:
 200 OK - Successful operation.
 500 Internal Server Error - Error in processing the request.
-POST /api/register
+
+
+###POST /api/register
 Description: Registers a new user.
 Parameters:
 body (in body)
@@ -32,9 +34,8 @@ Responses:
 How to Use
 To interact with these endpoints, make HTTP requests using appropriate methods (GET, POST) to the respective URLs mentioned above.
 
-Example Usage
-http
-Copy code
+##xample Usage
+
 GET http://localhost:3000/
 POST http://localhost:3000/api/payment
 {
